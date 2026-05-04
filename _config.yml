@@ -1,0 +1,40 @@
+# Configuración de GitHub Pages
+# Este archivo es opcional pero recomendado para optimizar la publicación
+
+# Tema
+theme: jekyll-theme-cayman
+
+# Título del sitio
+title: Casa Rural de Pruebas - Actividad CODEX
+
+# Descripción
+description: Página web responsiva de una casa rural ficticia en Cádiz, lista para GitHub Pages
+
+# URL base (descomenta si usas un dominio personalizado)
+# baseurl: "/casa-rural-cadiz"
+# url: "https://tudominio.com"
+
+# Opciones de Jekyll
+markdown: kramdown
+highlighter: rouge
+
+# Permitir directorios comenzados con _ (como _config.yml)
+include: []
+
+# Archivos a excluir
+exclude:
+  - .gitignore
+  - .git
+  - .github
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+# Configuración de seguridad
+safe: true
+lsi: false
+
+# Plugins (necesarios para GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

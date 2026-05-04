@@ -1,0 +1,42 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node (si se usa algún build tool en el futuro)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Compilados y builds
+dist/
+build/
+*.zip
+*.rar
+*.7z
+
+# Logs
+*.log
+logs/
+
+# Caché local
+.cache/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
